@@ -18,8 +18,6 @@ Compact placement dashboard with Admin and Student roles: Admins create and mana
 - Admin: `admin@example.com` / `admin123`
 - Student: `student@example.com` / `student123`
 
-These are created by the backend seed script (`backend/scripts/seedDatabase.js`).
-
 ## Folder structure
 
 ```
@@ -48,7 +46,7 @@ levelup/
 ## Tech stack
 
 - Backend: Node.js, Express, MongoDB (Mongoose), JWT
-- Frontend: React (Vite), Tailwind CSS, lucide-react
+- Frontend: React (Vite), Tailwind CSS
 
 ## Run locally (short)
 
@@ -56,7 +54,6 @@ Backend:
 ```
 cd backend
 npm install
-npm run seed   # optional: creates demo accounts & jobs
 npm run dev
 ```
 
